@@ -1,0 +1,46 @@
+.add-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 40px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 500px;
+    grid-gap: 1rem;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 0.51%;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.realestate-details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.message{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,81 @@
+.get-realestate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.side-bar{
+    background-color: rgba(134, 145, 131, 0.711);
+    height: 600px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 800px;
+    overflow-y: scroll;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.search-form-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 1%;
+}
+
+.form-search{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.realestate-details-search{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8rem;
+    margin: 5px;
+}
+
+.price-search{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.from{
+    margin-bottom: 8px;
+}
+
+.item-search-container{
+    display: flex;
+}
+
+.search-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.message-noItem{
+    color: rgb(255, 92, 83);
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.input-text:focus{
+    box-shadow: 0 0 5px red !important;
+    border: 1px solid red !important;
+    -moz-box-shadow: 0 0 5px red !important;
+    -webkit-box-shadow: 0 0 5px red !important;
+}
+
+.back-get{
+    margin: 40px;
+}

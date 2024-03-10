@@ -1,0 +1,24 @@
+.nv{
+    display: flex;
+    justify-content: end;
+}
+
+.nav-list-home{
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    padding: 50px;
+    animation: h 1.5s infinite alternate-reverse;
+  }
+
+  .home{
+    color: rgba(56, 0, 0, 0.895);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  @keyframes h {
+    from {transform: translateY(-4px);}
+    to {transform: translateY(1px);}
+  }

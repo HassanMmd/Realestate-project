@@ -1,0 +1,8 @@
+.container-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer{
+    width: 40px;
+}

@@ -1,0 +1,22 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pics{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 1rem;
+    border: 1px solid gray;
+}
+
+.img-container{
+    border: 1px solid rgba(134, 145, 131, 0.711);
+    margin: 10px;
+}
+
+.back{
+    margin-bottom: 20px;
+}
